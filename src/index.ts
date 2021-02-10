@@ -24,9 +24,23 @@
 // const sum:number = sumProdutsPrice(1,2,3,4,5,6,7)
 // console.log(sum)
 
-//オブジェクトの型定義
-import { objectSample } from './object/object'
-import { typeAliasSample } from './object/alias'
+//オブジェクトの型定義5
+// import { objectSample } from './object/object'
+// import { typeAliasSample } from './object/alias'
 
-objectSample()
-typeAliasSample()
+// objectSample()
+// typeAliasSample()
+
+//配列とタプルの型定義6
+// import {arraySample} from './array/array'
+// import {tupleSample} from './array/tuple'
+
+// arraySample();
+// tupleSample();
+
+//ジェネリック型とポリモーフィズム
+import { genericBasicSample } from './generics/basic'
+import { genericsAdvancedSample } from './generics/advanced'
+
+genericBasicSample()
+genericsAdvancedSample()
