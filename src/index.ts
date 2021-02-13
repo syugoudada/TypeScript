@@ -39,8 +39,13 @@
 // tupleSample();
 
 //ジェネリック型とポリモーフィズム
-import { genericBasicSample } from './generics/basic'
-import { genericsAdvancedSample } from './generics/advanced'
+// import { genericBasicSample } from './generics/basic'
+// import { genericsAdvancedSample } from './generics/advanced'
 
-genericBasicSample()
-genericsAdvancedSample()
+// genericBasicSample()
+// genericsAdvancedSample()
+
+import { Comic } from './interface/interface'
+
+const popularComic = new Comic(200, '鬼滅の刃', '2020')
+console.log(popularComic.getPublichYear())
